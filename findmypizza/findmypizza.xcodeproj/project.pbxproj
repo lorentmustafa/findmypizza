@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CC5F0C524B8A36E005B5ED3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5F0C424B8A36E005B5ED3 /* MapView.swift */; };
 		FE28A3B124B775F400548AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3B024B775F400548AEA /* AppDelegate.swift */; };
 		FE28A3B324B775F400548AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3B224B775F400548AEA /* SceneDelegate.swift */; };
 		FE28A3B524B775F400548AEA /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3B424B775F400548AEA /* WelcomeScreen.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CC5F0C424B8A36E005B5ED3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FE28A3AD24B775F400548AEA /* findmypizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = findmypizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE28A3B024B775F400548AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE28A3B224B775F400548AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				FE28A3CE24B89C4100548AEA /* PizzaPlaces.swift */,
 				FE28A3D024B89CEC00548AEA /* PizzaCircleImage.swift */,
 				FE28A3D224B89D7C00548AEA /* PizzaMainInfo.swift */,
+				3CC5F0C424B8A36E005B5ED3 /* MapView.swift */,
 			);
 			path = findmypizza;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC5F0C524B8A36E005B5ED3 /* MapView.swift in Sources */,
 				FE28A3B124B775F400548AEA /* AppDelegate.swift in Sources */,
 				FE28A3D324B89D7C00548AEA /* PizzaMainInfo.swift in Sources */,
 				FE28A3B324B775F400548AEA /* SceneDelegate.swift in Sources */,

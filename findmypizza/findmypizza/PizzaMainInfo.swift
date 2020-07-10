@@ -12,7 +12,8 @@ struct PizzaMainInfo: View {
     var body: some View {
         
         VStack {
-            
+            //Map	
+            MapView().frame(height:300).edgesIgnoringSafeArea(.top)
            
             //CircleImage
             PizzaCircleImage()
