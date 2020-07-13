@@ -16,6 +16,7 @@ struct PizzaPlace: Hashable, Codable, Identifiable {
     var coordinates:Coordinates
     var city:String
     var address:String
+    var phoneNo:String
     
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(

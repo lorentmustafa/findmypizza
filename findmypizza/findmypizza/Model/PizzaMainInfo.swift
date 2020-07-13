@@ -12,6 +12,26 @@ struct PizzaMainInfo: View {
     
     var pizzaplace : PizzaPlace
     
+    @State var showActionSheet = false
+    @State var showAlert = false
+    
+    var actionSheet:ActionSheet{
+        ActionSheet(title:Text("Order Now"), message:Text("Currently unavailable!"), buttons:[
+            .destructive(Text("Cancel"))
+        ])
+    }
+    
+    var alert:Alert{
+        Alert(title:Text("Order"),
+              primaryButton: .default(Text("Call"), action:{
+                let telephone = "tel://"
+                let formattedString=telephone+self.pizzaplace.phoneNo
+                guard let url=URL(string: formattedString) else {return}
+                UIApplication.shared.open(url)
+              }),
+              secondaryButton: .cancel())
+    }
+    
     var body: some View {
         
         
@@ -39,6 +59,17 @@ struct PizzaMainInfo: View {
                     .font(.subheadline)
                 }
             }.padding(.all, 10)
+            Spacer()
+            HStack{
+                Button("Order Now"){
+                    self.showActionSheet.toggle()
+                }.actionSheet(isPresented: $showActionSheet, content: {self.actionSheet})
+                Spacer()
+                Button("Call"){
+                    self.showAlert.toggle()
+                }.alert(isPresented: $showAlert, content: {self.alert})
+            }
+            .padding(.all, 15).offset(y:-50)
             Spacer()
         }.navigationBarTitle(Text(pizzaplace.name), displayMode: .inline)
     }

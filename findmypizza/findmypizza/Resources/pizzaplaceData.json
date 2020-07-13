@@ -3,6 +3,7 @@
         "name": "Sach Pizza",
         "city": "Prishtine, 10000",
         "address": "Rr. Rexhep Luci",
+        "phoneNo":"044896896",
         "id": 1001,
         "coordinates": {
             "longitude": 21.161289,
@@ -14,6 +15,7 @@
            "name": "Proper Pizza Prishtine",
            "city": "Prishtine, 10000",
            "address": "Rr. Robert Doll",
+           "phoneNo":"044131310",
            "id": 1002,
            "coordinates": {
                "longitude": 21.154980,
@@ -25,6 +27,7 @@
            "name": "Pizzeria Napoli Vero",
            "city": "Prishtine, 10000",
            "address": "Rr. Luan Haradinaj",
+           "phoneNo":"044194710",
            "id": 1003,
            "coordinates": {
                "longitude": 21.159480,
@@ -36,6 +39,7 @@
            "name": "Domino's Pizza 03",
            "city": "Prishtine, 10000",
            "address": "M2",
+           "phoneNo":"038711711",
            "id": 1004,
            "coordinates": {
                "longitude": 21.151818,
@@ -47,6 +51,7 @@
            "name": "Napoli Pizza",
            "city": "Prishtine, 10000",
            "address": "Rr. Xheladin Rekaliu",
+           "phoneNo":"044785411",
            "id": 1005,
            "coordinates": {
                "longitude": 21.167176,
@@ -58,6 +63,7 @@
            "name": "Domino's Pizza 02",
            "city": "Prishtine, 10000",
            "address": "Rruga B",
+           "phoneNo":"038711711",
            "id": 1006,
            "coordinates": {
                "longitude": 21.173418,
@@ -69,6 +75,7 @@
            "name": "Famous Famiglia",
            "city": "Prishtine, 10000",
            "address": "Rr. Fehmi Agani",
+           "phoneNo":"038727272",
            "id": 1007,
            "coordinates": {
                "longitude": 21.159831,
@@ -80,6 +87,7 @@
            "name": "Domino's Pizza 01",
            "city": "Prishtine, 10000",
            "address": "Rr. Tirana",
+           "phoneNo":"038711711",
            "id": 1008,
            "coordinates": {
                "longitude": 21.152304,
@@ -91,6 +99,7 @@
            "name": "Ginnis Pizzeria",
            "city": "Prishtine, 10000",
            "address": "M9",
+           "phoneNo":"044360094",
            "id": 1009,
            "coordinates": {
                "longitude": 21.141961,
@@ -102,6 +111,7 @@
            "name": "Pizza Crust",
            "city": "Prishtine, 10000",
            "address": "Rr. Enver Maloku",
+           "phoneNo":"045557575",
            "id": 1010,
            "coordinates": {
                "longitude": 21.171784,
@@ -113,6 +123,7 @@
            "name": "Domino's Pizza Ferizaj",
            "city": "Ferizaj, 70000",
            "address": "Rr. Ahmet Kaqiku",
+           "phoneNo":"038711711",
            "id": 1011,
            "coordinates": {
                "longitude": 21.154144,
@@ -124,6 +135,7 @@
            "name": "Balkan Pizza",
            "city": "Ferizaj, 70000",
            "address": "Rr. Deshmoret E Kombit",
+           "phoneNo":"044631177",
            "id": 1012,
            "coordinates": {
                "longitude": 21.150145,
@@ -135,6 +147,7 @@
            "name": "Pizzeria Syri",
            "city": "Ferizaj, 70000",
            "address": "Rr. Deshmoret E Kombit",
+           "phoneNo":"049501078",
            "id": 1013,
            "coordinates": {
                "longitude": 21.150145,
@@ -146,6 +159,7 @@
            "name": "Il Gusto Ristorante",
            "city": "Ferizaj, 70000",
            "address": "Rr. Driton Islami",
+           "phoneNo":"049206000",
            "id": 1014,
            "coordinates": {
                "longitude": 21.148126,
@@ -157,6 +171,7 @@
            "name": "Prima Pizza",
            "city": "Peje, 30000",
            "address": "Rr. Adem Jashari",
+           "phoneNo":"045902444",
            "id": 1015,
            "coordinates": {
                "longitude": 20.287993,
@@ -168,6 +183,7 @@
            "name": "Proper Pizza Ferizaj",
            "city": "Ferizaj, 70000",
            "address": "Rr. Deshmoret e Kombit",
+           "phoneNo":"045906333",
            "id": 1016,
            "coordinates": {
                "longitude": 21.150145,
