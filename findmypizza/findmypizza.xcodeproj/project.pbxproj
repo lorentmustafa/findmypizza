@@ -17,6 +17,10 @@
 		FE28A3CF24B89C4100548AEA /* PizzaPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3CE24B89C4100548AEA /* PizzaPlaces.swift */; };
 		FE28A3D124B89CEC00548AEA /* PizzaCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3D024B89CEC00548AEA /* PizzaCircleImage.swift */; };
 		FE28A3D324B89D7C00548AEA /* PizzaMainInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3D224B89D7C00548AEA /* PizzaMainInfo.swift */; };
+		FE28A3D724B8A62C00548AEA /* PizzaPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3D624B8A62C00548AEA /* PizzaPlace.swift */; };
+		FE28A3D924B8A68F00548AEA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3D824B8A68F00548AEA /* Data.swift */; };
+		FE28A3E524B8C03600548AEA /* PizzaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3E424B8C03600548AEA /* PizzaRow.swift */; };
+		FE45359924B9D3F4000FA209 /* pizzaplaceData.json in Resources */ = {isa = PBXBuildFile; fileRef = FE45359824B9D3F4000FA209 /* pizzaplaceData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		FE28A3CE24B89C4100548AEA /* PizzaPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaPlaces.swift; sourceTree = "<group>"; };
 		FE28A3D024B89CEC00548AEA /* PizzaCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCircleImage.swift; sourceTree = "<group>"; };
 		FE28A3D224B89D7C00548AEA /* PizzaMainInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMainInfo.swift; sourceTree = "<group>"; };
+		FE28A3D624B8A62C00548AEA /* PizzaPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaPlace.swift; sourceTree = "<group>"; };
+		FE28A3D824B8A68F00548AEA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FE28A3E424B8C03600548AEA /* PizzaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRow.swift; sourceTree = "<group>"; };
+		FE45359824B9D3F4000FA209 /* pizzaplaceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizzaplaceData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,9 @@
 		FE28A3AF24B775F400548AEA /* findmypizza */ = {
 			isa = PBXGroup;
 			children = (
+				FE28A3DE24B8AA0100548AEA /* Supporting Views */,
+				FE28A3DA24B8A74200548AEA /* Resources */,
+				FE28A3D524B8A60900548AEA /* Model */,
 				FE28A3B024B775F400548AEA /* AppDelegate.swift */,
 				FE28A3B224B775F400548AEA /* SceneDelegate.swift */,
 				FE28A3B424B775F400548AEA /* WelcomeScreen.swift */,
@@ -71,10 +82,6 @@
 				FE28A3BB24B775F900548AEA /* LaunchScreen.storyboard */,
 				FE28A3BE24B775F900548AEA /* Info.plist */,
 				FE28A3B824B775F900548AEA /* Preview Content */,
-				FE28A3CE24B89C4100548AEA /* PizzaPlaces.swift */,
-				FE28A3D024B89CEC00548AEA /* PizzaCircleImage.swift */,
-				FE28A3D224B89D7C00548AEA /* PizzaMainInfo.swift */,
-				3CC5F0C424B8A36E005B5ED3 /* MapView.swift */,
 			);
 			path = findmypizza;
 			sourceTree = "<group>";
@@ -85,6 +92,35 @@
 				FE28A3B924B775F900548AEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE28A3D524B8A60900548AEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE28A3D224B89D7C00548AEA /* PizzaMainInfo.swift */,
+				FE28A3D624B8A62C00548AEA /* PizzaPlace.swift */,
+				FE28A3D824B8A68F00548AEA /* Data.swift */,
+				FE28A3CE24B89C4100548AEA /* PizzaPlaces.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE28A3DA24B8A74200548AEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE45359824B9D3F4000FA209 /* pizzaplaceData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE28A3DE24B8AA0100548AEA /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE28A3D024B89CEC00548AEA /* PizzaCircleImage.swift */,
+				3CC5F0C424B8A36E005B5ED3 /* MapView.swift */,
+				FE28A3E424B8C03600548AEA /* PizzaRow.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE28A3BD24B775F900548AEA /* LaunchScreen.storyboard in Resources */,
+				FE45359924B9D3F4000FA209 /* pizzaplaceData.json in Resources */,
 				FE28A3BA24B775F900548AEA /* Preview Assets.xcassets in Resources */,
 				FE28A3B724B775F900548AEA /* Assets.xcassets in Resources */,
 			);
@@ -161,9 +198,12 @@
 				3CC5F0C524B8A36E005B5ED3 /* MapView.swift in Sources */,
 				FE28A3B124B775F400548AEA /* AppDelegate.swift in Sources */,
 				FE28A3D324B89D7C00548AEA /* PizzaMainInfo.swift in Sources */,
+				FE28A3E524B8C03600548AEA /* PizzaRow.swift in Sources */,
 				FE28A3B324B775F400548AEA /* SceneDelegate.swift in Sources */,
 				FE28A3D124B89CEC00548AEA /* PizzaCircleImage.swift in Sources */,
 				FE28A3CF24B89C4100548AEA /* PizzaPlaces.swift in Sources */,
+				FE28A3D724B8A62C00548AEA /* PizzaPlace.swift in Sources */,
+				FE28A3D924B8A68F00548AEA /* Data.swift in Sources */,
 				FE28A3B524B775F400548AEA /* WelcomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,39 +9,44 @@
 import SwiftUI
 
 struct PizzaMainInfo: View {
+    
+    var pizzaplace : PizzaPlace
+    
     var body: some View {
+        
         
         VStack {
             //Map	
-            MapView().frame(height:300).edgesIgnoringSafeArea(.top)
+            MapView(pizzaPlace: pizzaplace, coordinate: pizzaplace.locationCoordinate).frame(height:300).edgesIgnoringSafeArea(.top)
            
             //CircleImage
-            PizzaCircleImage()
-                .offset(y: -100)
-                .padding(.bottom, -100)
+            PizzaCircleImage(image: Image(pizzaplace.imageName))
+                .offset(y: -50)
+                .frame(width:100, height:100)
+                .padding(.bottom, 50)
                 
             //TextViews
             VStack(alignment: .leading) {
                 
-                Text("Proper Pizza")
+                Text(pizzaplace.name)
                     .font(.title)
                 
                 HStack {
-                    Text("Rruga E Kombit")
+                    Text(pizzaplace.address)
                         .font(.subheadline)
                     Spacer()
-                    Text("Ferizaj")
+                    Text(pizzaplace.city)
                     .font(.subheadline)
                 }
             }.padding(.all, 10)
             Spacer()
-        }
+        }.navigationBarTitle(Text(pizzaplace.name), displayMode: .inline)
     }
 }
 
 
 struct PizzaMainInfo_Previews: PreviewProvider {
     static var previews: some View {
-        PizzaMainInfo()
+        PizzaMainInfo(pizzaplace: pizzaplaceData[1])
     }
 }
