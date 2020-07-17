@@ -20,6 +20,7 @@
 		FE28A3D724B8A62C00548AEA /* PizzaPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3D624B8A62C00548AEA /* PizzaPlace.swift */; };
 		FE28A3D924B8A68F00548AEA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3D824B8A68F00548AEA /* Data.swift */; };
 		FE28A3E524B8C03600548AEA /* PizzaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28A3E424B8C03600548AEA /* PizzaRow.swift */; };
+		FE2CED6F24BDE78F00A1F79B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2CED6E24BDE78F00A1F79B /* UserData.swift */; };
 		FE45359924B9D3F4000FA209 /* pizzaplaceData.json in Resources */ = {isa = PBXBuildFile; fileRef = FE45359824B9D3F4000FA209 /* pizzaplaceData.json */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		FE28A3D624B8A62C00548AEA /* PizzaPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaPlace.swift; sourceTree = "<group>"; };
 		FE28A3D824B8A68F00548AEA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		FE28A3E424B8C03600548AEA /* PizzaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRow.swift; sourceTree = "<group>"; };
+		FE2CED6E24BDE78F00A1F79B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		FE45359824B9D3F4000FA209 /* pizzaplaceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizzaplaceData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 				FE28A3D624B8A62C00548AEA /* PizzaPlace.swift */,
 				FE28A3D824B8A68F00548AEA /* Data.swift */,
 				FE28A3CE24B89C4100548AEA /* PizzaPlaces.swift */,
+				FE2CED6E24BDE78F00A1F79B /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				FE28A3D324B89D7C00548AEA /* PizzaMainInfo.swift in Sources */,
 				FE28A3E524B8C03600548AEA /* PizzaRow.swift in Sources */,
 				FE28A3B324B775F400548AEA /* SceneDelegate.swift in Sources */,
+				FE2CED6F24BDE78F00A1F79B /* UserData.swift in Sources */,
 				FE28A3D124B89CEC00548AEA /* PizzaCircleImage.swift in Sources */,
 				FE28A3CF24B89C4100548AEA /* PizzaPlaces.swift in Sources */,
 				FE28A3D724B8A62C00548AEA /* PizzaPlace.swift in Sources */,

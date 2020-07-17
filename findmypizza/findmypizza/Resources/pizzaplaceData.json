@@ -5,6 +5,7 @@
         "address": "Rr. Rexhep Luci",
         "phoneNo":"044896896",
         "id": 1001,
+        "isFavorite": true,
         "coordinates": {
             "longitude": 21.161289,
             "latitude": 42.662220
@@ -17,6 +18,7 @@
            "address": "Rr. Robert Doll",
            "phoneNo":"044131310",
            "id": 1002,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.154980,
                "latitude": 42.656390
@@ -29,6 +31,7 @@
            "address": "Rr. Luan Haradinaj",
            "phoneNo":"044194710",
            "id": 1003,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.159480,
                "latitude": 42.661510
@@ -41,6 +44,7 @@
            "address": "M2",
            "phoneNo":"038711711",
            "id": 1004,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.151818,
                "latitude": 42.649673
@@ -53,6 +57,7 @@
            "address": "Rr. Xheladin Rekaliu",
            "phoneNo":"044785411",
            "id": 1005,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.167176,
                "latitude": 42.653281
@@ -65,6 +70,7 @@
            "address": "Rruga B",
            "phoneNo":"038711711",
            "id": 1006,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.173418,
                "latitude": 42.649835
@@ -77,6 +83,7 @@
            "address": "Rr. Fehmi Agani",
            "phoneNo":"038727272",
            "id": 1007,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.159831,
                "latitude": 42.664294
@@ -89,6 +96,7 @@
            "address": "Rr. Tirana",
            "phoneNo":"038711711",
            "id": 1008,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.152304,
                "latitude": 42.659706
@@ -101,6 +109,7 @@
            "address": "M9",
            "phoneNo":"044360094",
            "id": 1009,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.141961,
                "latitude": 42.651193
@@ -113,6 +122,7 @@
            "address": "Rr. Enver Maloku",
            "phoneNo":"045557575",
            "id": 1010,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.171784,
                "latitude": 42.652437
@@ -125,6 +135,7 @@
            "address": "Rr. Ahmet Kaqiku",
            "phoneNo":"038711711",
            "id": 1011,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.154144,
                "latitude": 42.369098
@@ -137,6 +148,7 @@
            "address": "Rr. Deshmoret E Kombit",
            "phoneNo":"044631177",
            "id": 1012,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.150145,
                "latitude": 42.370118
@@ -149,6 +161,7 @@
            "address": "Rr. Deshmoret E Kombit",
            "phoneNo":"049501078",
            "id": 1013,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.150145,
                "latitude": 42.370118
@@ -161,6 +174,7 @@
            "address": "Rr. Driton Islami",
            "phoneNo":"049206000",
            "id": 1014,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.148126,
                "latitude": 42.375546
@@ -173,6 +187,7 @@
            "address": "Rr. Adem Jashari",
            "phoneNo":"045902444",
            "id": 1015,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 20.287993,
                "latitude": 42.661465
@@ -185,6 +200,7 @@
            "address": "Rr. Deshmoret e Kombit",
            "phoneNo":"045906333",
            "id": 1016,
+           "isFavorite": false,
            "coordinates": {
                "longitude": 21.150145,
                "latitude": 42.370118

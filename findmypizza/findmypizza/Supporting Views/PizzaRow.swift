@@ -11,7 +11,7 @@ import SwiftUI
 
 struct PizzaRow: View {
     var pizzaPlace:PizzaPlace
-
+    
     var body: some View {
      
         HStack {
@@ -21,6 +21,13 @@ struct PizzaRow: View {
                 .frame(width:50, height: 50)
             Text(pizzaPlace.name)
             Spacer()
+            
+            if pizzaPlace.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+                    .imageScale(.large)
+            }
+            
         }.padding(.leading, 10)
         
         

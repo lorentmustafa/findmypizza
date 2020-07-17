@@ -8,13 +8,15 @@
 
 import SwiftUI
 
+
 struct PizzaMainInfo: View {
     
+    @EnvironmentObject var userData : UserData
     var pizzaplace : PizzaPlace
     
     @State var showActionSheet = false
     @State var showAlert = false
-    
+   
     var actionSheet:ActionSheet{
         ActionSheet(title:Text("Order Now"), message:Text("Currently unavailable!"), buttons:[
             .destructive(Text("Cancel"))
@@ -31,7 +33,11 @@ struct PizzaMainInfo: View {
               }),
               secondaryButton: .cancel())
     }
+    var pizzaplaceIndex : Int {
+        userData.pizzaplaces.firstIndex(where: { $0.id == pizzaplace.id })!
+    }
     
+  
     var body: some View {
         
         
@@ -48,8 +54,26 @@ struct PizzaMainInfo: View {
             //TextViews
             VStack(alignment: .leading) {
                 
-                Text(pizzaplace.name)
+                HStack {
+                    Text(pizzaplace.name)
                     .font(.title)
+                    
+                    Button(action: {
+                        self.userData.pizzaplaces[self.pizzaplaceIndex].isFavorite.toggle()
+                    }) {
+                        if self.userData.pizzaplaces[self.pizzaplaceIndex]
+                            .isFavorite {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(Color.yellow)
+                        } else {
+                            Image(systemName: "star")
+                                .foregroundColor(Color.gray)
+                        }
+                    }
+                    
+                }
+                
+                
                 
                 HStack {
                     Text(pizzaplace.address)
@@ -78,6 +102,10 @@ struct PizzaMainInfo: View {
 
 struct PizzaMainInfo_Previews: PreviewProvider {
     static var previews: some View {
-        PizzaMainInfo(pizzaplace: pizzaplaceData[1])
+        let userData = UserData()
+        return PizzaMainInfo(pizzaplace: userData.pizzaplaces[0])
+            .environmentObject(userData)
     }
+    
+    
 }
